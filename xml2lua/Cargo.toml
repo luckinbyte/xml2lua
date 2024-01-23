@@ -7,4 +7,6 @@ edition = "2021"
 
 [dependencies]
 #calamine = {extern = "./libcalamine.rlib"}
-calamine = {path = "../calamine"}
+piccolo = "0.3.1"
+calamine = {path = "../../calamine/calamine"}
+clap = { version = "4.4", features = ["cargo"] }
